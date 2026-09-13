@@ -1,0 +1,25 @@
+{
+  "name": "poc-playwright-automation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cross-env TEST_ENV=dev npx playwright test",
+    "test:qa": "cross-env TEST_ENV=qa npx playwright test",
+    "test:uat": "cross-env TEST_ENV=uat npx playwright test",
+    "test:stage": "cross-env TEST_ENV=stage npx playwright test",
+    "test:prod": "cross-env TEST_ENV=prod npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "winston": "^3.19.0"
+  }
+}

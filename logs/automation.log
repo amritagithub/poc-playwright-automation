@@ -1,0 +1,5 @@
+2026-09-13 11:36:57 [INFO] Logger test started
+2026-09-13 11:36:57 [DEBUG] Debug message
+2026-09-13 11:36:57 [WARN] Warning message
+2026-09-13 11:36:57 [ERROR] Error message
+2026-09-13 11:36:57 [INFO] Logger test completed
