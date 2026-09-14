@@ -25,8 +25,8 @@ if (result.error) {
 export const environment = {
     name: environmentName,
     baseUrl: process.env.BASE_URL,
-    username: process.env.USERNAME,
-    password: process.env.PASSWORD,
+    username: process.env.APP_USERNAME,
+    password: process.env.APP_PASSWORD,
     browser: process.env.BROWSER || 'chromium',
     headless: process.env.HEADLESS !== 'false',
     defaultTimeout: Number(process.env.DEFAULT_TIMEOUT || 30000),
