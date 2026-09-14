@@ -1,10 +1,21 @@
 export class BasePage {
 
-    constructor(page, logger = null) {
-        this.page = page;
-        this.logger = logger;
-    }
+    constructor(page, logger, config) {
 
+    this.page = page;
+    this.logger = logger;
+    this.config = config;
+     console.log("CONFIG OBJECT:", config);
+
+}
+async navigate(url = this.config.baseUrl) {
+
+    this.logger.info(`Navigating to: ${url}`);
+
+    await this.page.goto(url);
+
+    this.logger.info(`Navigation completed: ${url}`);
+}
     async click(locator) {
 
         this.logger?.debug(`Clicking element: ${locator}`);
@@ -224,6 +235,7 @@ export class BasePage {
 
         await this.page.locator(locator).evaluate(
             element => {
+
                 element.style.border = '3px solid red';
             }
         );
