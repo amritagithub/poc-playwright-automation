@@ -3,7 +3,7 @@ import { test as base } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage.js';
 import { DashboardPage } from '../pages/DashboardPage.js';
 import { ProductCardComponent } from '../components/ProductCardComponent.js';
-
+import { CartPage } from '../pages/CartPage.js';
 import logger from '../utils/Logger.js';
 import { config } from '../config/configurationManager.js';
 
@@ -45,6 +45,14 @@ export const test = base.extend({
         );
 
         await use(productCardComponent);
+    },
+    cartPage: async ({ page, logger }, use) => {
+
+        const cartPage = new CartPage(
+            page,
+            logger
+        );  
+        await use(cartPage);
     }
 
 });
