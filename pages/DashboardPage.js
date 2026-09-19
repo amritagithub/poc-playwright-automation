@@ -2,17 +2,14 @@ import { BasePage } from './BasePage.js';
 
 export class DashboardPage extends BasePage {
 
-    constructor(page, logger) {
+    constructor(page, logger, config) {
+        super(page, logger, config);
 
-        super(page, logger);
+        this.products = '.card-body';
 
-        this.products = page.locator('.card-body');
-        this.ordersButton = page.getByRole(
-            'button',
-            { name: 'ORDERS' }
-        );
+        this.ordersButton = '[routerlink="/dashboard/myorders"]';
 
-        this.cartButton = page.locator('button[routerlink="/dashboard/cart"]');
+        this.cartButton = '[routerlink="/dashboard/cart"]';
     }
 
     async isDashboardDisplayed() {
@@ -21,14 +18,33 @@ export class DashboardPage extends BasePage {
             'Validating dashboard is displayed'
         );
 
-        return await this.products
+        return await this.page
+            .locator(this.products)
             .first()
             .isVisible();
     }
 
+    async verifyDashboardDisplayed() {
+
+        this.logger?.info(
+            'Verifying dashboard is displayed'
+        );
+
+        await this.page
+            .locator(this.products)
+            .first()
+            .waitFor({ state: 'visible' });
+
+        this.logger?.info(
+            'Dashboard displayed successfully'
+        );
+    }
+
     async getProductCount() {
 
-        const count = await this.products.count();
+        const count = await this.page
+            .locator(this.products)
+            .count();
 
         this.logger?.info(
             `Dashboard product count: ${count}`
@@ -43,7 +59,7 @@ export class DashboardPage extends BasePage {
             'Navigating to Orders'
         );
 
-        await this.ordersButton.click();
+        await this.click(this.ordersButton);
     }
 
     async goToCart() {
@@ -52,6 +68,6 @@ export class DashboardPage extends BasePage {
             'Navigating to Cart'
         );
 
-        await this.cartButton.click();
+        await this.click(this.cartButton);
     }
 }

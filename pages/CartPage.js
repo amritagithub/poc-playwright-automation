@@ -8,6 +8,18 @@ export class CartPage extends BasePage {
         this.cartProducts = '.cartSection h3';
         this.checkoutButton = 'text=Checkout';
     }
+    getProduct(productName) {
+
+    this.logger?.debug(
+        `Locating product in cart: ${productName}`
+    );
+
+    return this.page
+        .locator(this.cartProducts)
+        .filter({
+            hasText: productName
+        });
+}
 
     async verifyProductInCart(productName) {
 
