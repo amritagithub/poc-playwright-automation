@@ -1,11 +1,16 @@
 import { test as base } from '@playwright/test';
 
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import { LoginPage } from '../pages/LoginPage.js';
 import { DashboardPage } from '../pages/DashboardPage.js';
 import { ProductCardComponent } from '../components/ProductCardComponent.js';
 import { CartPage } from '../pages/CartPage.js';
+
 import logger from '../utils/Logger.js';
 import { config } from '../config/configurationManager.js';
+import { JsonReader } from '../utils/JsonReader.js';
 
 export const test = base.extend({
 
@@ -17,7 +22,7 @@ export const test = base.extend({
         await use(config);
     },
 
-    loginPage: async ({ page, logger ,config}, use) => {
+    loginPage: async ({ page, logger, config }, use) => {
 
         const loginPage = new LoginPage(
             page,
@@ -27,39 +32,78 @@ export const test = base.extend({
 
         await use(loginPage);
     },
+    
 
-    dashboardPage: async ({ page, logger }, use) => {
+    dashboardPage: async ({ page, logger, config }, use) => {
 
         const dashboardPage = new DashboardPage(
             page,
-            logger
+            logger,
+            config
         );
 
         await use(dashboardPage);
     },
-    productCardComponent: async ({ page, logger }, use) => {
+    authenticatedPage: async (
+    { page, loginPage, dashboardPage, config, logger },
+    use
+) => {
+    logger.info('Starting authentication setup');
+
+    await loginPage.navigate();
+
+    await loginPage.login(
+        config.username,
+        config.password
+    );
+
+    await dashboardPage.verifyDashboardDisplayed();
+
+    logger.info('Authentication completed successfully');
+
+    await use(page);
+},
+
+    productCardComponent: async ({ page, logger, config }, use) => {
 
         const productCardComponent = new ProductCardComponent(
             page,
-            logger
+            logger,
+            config
         );
 
         await use(productCardComponent);
     },
-    cartPage: async ({ page, logger }, use) => {
+
+    cartPage: async ({ page, logger, config }, use) => {
 
         const cartPage = new CartPage(
             page,
-            logger
-        );  
+            logger,
+            config
+        );
+
         await use(cartPage);
+    },
+
+    jsonReader: async ({}, use) => {
+
+        const projectRoot = fileURLToPath(
+            new URL('../', import.meta.url)
+        );
+
+        const testDataDirectory = path.join(
+            projectRoot,
+            'testdata'
+        );
+
+        const jsonReader = new JsonReader(
+            testDataDirectory
+        );
+
+        await use(jsonReader);
     }
 
 });
-
-
-    
-
-
 
 export { expect } from '@playwright/test';

@@ -98,3 +98,136 @@
 2026-09-19 12:38:32 [INFO] Product added to cart: ZARA COAT 3
 2026-09-19 12:38:32 [INFO] Navigating to Cart
 2026-09-19 12:38:33 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 13:23:53 [INFO] Starting add product to cart test
+2026-09-19 13:23:53 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:23:54 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:23:54 [INFO] Starting login
+2026-09-19 13:23:55 [INFO] Login button clicked
+2026-09-19 13:23:55 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 13:23:55 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 13:23:55 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 13:23:55 [INFO] Navigating to Cart
+2026-09-19 13:23:57 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 13:27:44 [INFO] Starting add product to cart test
+2026-09-19 13:27:44 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:27:46 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:27:46 [INFO] Starting login
+2026-09-19 13:27:46 [INFO] Login button clicked
+2026-09-19 13:27:46 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 13:27:46 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 13:27:47 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 13:27:47 [INFO] Navigating to Cart
+2026-09-19 13:27:48 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 13:40:50 [INFO] Starting authentication setup
+2026-09-19 13:40:50 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:40:53 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:40:53 [INFO] Starting login
+2026-09-19 13:40:53 [INFO] Login button clicked
+2026-09-19 13:40:55 [INFO] Starting authentication setup
+2026-09-19 13:40:55 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:40:58 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:40:58 [INFO] Starting login
+2026-09-19 13:40:59 [INFO] Login button clicked
+2026-09-19 13:41:52 [INFO] Starting authentication setup
+2026-09-19 13:41:52 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:41:54 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:41:54 [INFO] Starting login
+2026-09-19 13:41:54 [INFO] Login button clicked
+2026-09-19 13:41:54 [INFO] Verifying dashboard is displayed
+2026-09-19 13:41:54 [ERROR] Wait failed for locator('.card-body'). Error: locator.waitFor: selector: expected string, got object
+2026-09-19 13:41:56 [INFO] Starting authentication setup
+2026-09-19 13:41:56 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:41:58 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:41:58 [INFO] Starting login
+2026-09-19 13:41:58 [INFO] Login button clicked
+2026-09-19 13:41:58 [INFO] Verifying dashboard is displayed
+2026-09-19 13:41:58 [ERROR] Wait failed for locator('.card-body'). Error: locator.waitFor: selector: expected string, got object
+2026-09-19 13:44:03 [INFO] Starting authentication setup
+2026-09-19 13:44:03 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:44:05 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:44:05 [INFO] Starting login
+2026-09-19 13:44:05 [INFO] Login button clicked
+2026-09-19 13:44:05 [INFO] Verifying dashboard is displayed
+2026-09-19 13:44:05 [ERROR] Wait failed for locator('.card-body'). Error: locator.waitFor: selector: expected string, got object
+2026-09-19 13:44:07 [INFO] Starting authentication setup
+2026-09-19 13:44:07 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:44:09 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:44:09 [INFO] Starting login
+2026-09-19 13:44:09 [INFO] Login button clicked
+2026-09-19 13:44:09 [INFO] Verifying dashboard is displayed
+2026-09-19 13:44:09 [ERROR] Wait failed for locator('.card-body'). Error: locator.waitFor: selector: expected string, got object
+2026-09-19 13:45:01 [INFO] Starting authentication setup
+2026-09-19 13:45:01 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:45:04 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:45:04 [INFO] Starting login
+2026-09-19 13:45:04 [INFO] Login button clicked
+2026-09-19 13:45:04 [INFO] Verifying dashboard is displayed
+2026-09-19 13:45:04 [ERROR] Wait failed for .card-body. Error: locator.waitFor: Error: strict mode violation: locator('.card-body') resolved to 8 elements:
+    1) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('ADIDAS ORIGINAL$ 11500 View')
+    2) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('ZARA COAT 3$ 11500 View Add')
+    3) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('iphone 13 pro$ 55000 View Add')
+    4) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('car$ 150000 View Add To Cart')
+    5) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('iPhone QA Max$ 98765 View Add')
+    6) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('{{productName}}$ 115000 View')
+    7) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('Laptop$ 11500 View Add To Cart').first()
+    8) <div class="card-body" _ngcontent-bfy-c34="">…</div> aka getByText('Laptop$ 11500 View Add To Cart').nth(1)
+
+Call log:
+[2m  - waiting for locator('.card-body') to be visible[22m
+
+2026-09-19 13:45:06 [INFO] Starting authentication setup
+2026-09-19 13:45:06 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:45:08 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:45:08 [INFO] Starting login
+2026-09-19 13:45:08 [INFO] Login button clicked
+2026-09-19 13:45:08 [INFO] Verifying dashboard is displayed
+2026-09-19 13:45:08 [ERROR] Wait failed for .card-body. Error: locator.waitFor: Error: strict mode violation: locator('.card-body') resolved to 8 elements:
+    1) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('ADIDAS ORIGINAL$ 11500 View')
+    2) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('ZARA COAT 3$ 11500 View Add')
+    3) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('iphone 13 pro$ 55000 View Add')
+    4) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('car$ 150000 View Add To Cart')
+    5) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('iPhone QA Max$ 98765 View Add')
+    6) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('{{productName}}$ 115000 View')
+    7) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('Laptop$ 11500 View Add To Cart').first()
+    8) <div class="card-body" _ngcontent-ngd-c34="">…</div> aka getByText('Laptop$ 11500 View Add To Cart').nth(1)
+
+Call log:
+[2m  - waiting for locator('.card-body') to be visible[22m
+
+2026-09-19 13:51:03 [INFO] Starting authentication setup
+2026-09-19 13:51:03 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:51:05 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:51:05 [INFO] Starting login
+2026-09-19 13:51:05 [INFO] Login button clicked
+2026-09-19 13:51:05 [INFO] Verifying dashboard is displayed
+2026-09-19 13:51:06 [INFO] Dashboard displayed successfully
+2026-09-19 13:51:06 [INFO] Authentication completed successfully
+2026-09-19 13:51:06 [INFO] Starting add product to cart test
+2026-09-19 13:51:06 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 13:51:06 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 13:51:06 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 13:51:09 [INFO] Starting authentication setup
+2026-09-19 13:51:09 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:51:11 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:51:11 [INFO] Starting login
+2026-09-19 13:51:11 [INFO] Login button clicked
+2026-09-19 13:51:11 [INFO] Verifying dashboard is displayed
+2026-09-19 13:51:12 [INFO] Dashboard displayed successfully
+2026-09-19 13:51:12 [INFO] Authentication completed successfully
+2026-09-19 13:51:12 [INFO] Starting add product to cart test
+2026-09-19 13:51:12 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 13:51:12 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 13:51:12 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 13:53:04 [INFO] Starting authentication setup
+2026-09-19 13:53:04 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 13:53:05 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 13:53:05 [INFO] Starting login
+2026-09-19 13:53:06 [INFO] Login button clicked
+2026-09-19 13:53:06 [INFO] Verifying dashboard is displayed
+2026-09-19 13:53:06 [INFO] Dashboard displayed successfully
+2026-09-19 13:53:06 [INFO] Authentication completed successfully
+2026-09-19 13:53:06 [INFO] Starting add product to cart test
+2026-09-19 13:53:06 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 13:53:06 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 13:53:06 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 13:53:08 [INFO] Product verified successfully in cart: ZARA COAT 3

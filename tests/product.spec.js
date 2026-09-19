@@ -1,48 +1,37 @@
-import {
-    test,
-    expect
-} from '../fixtures/testFixtures.js';
+import { test, expect } from '../fixtures/testFixtures.js';
 
-test(
-    'Add product to cart',
-    async ({
-        loginPage,
-        dashboardPage,
-        productCardComponent,
-        cartPage,
-        logger,
-        config
-    }) => {
+test('Add product to cart', async ({
+    authenticatedPage,
+    productCardComponent,
+    cartPage,
+    jsonReader,
+    logger
+}) => {
 
-        const productName =
-            'ZARA COAT 3';
+    const productData = jsonReader.read(
+        'common/productData.json'
+    );
 
-        logger.info(
-            'Starting add product to cart test'
-        );
+    const productName = jsonReader.getRequiredValue(
+        productData,
+        ['addToCart', 'productName']
+    );
 
-        await loginPage.navigate();
+    logger.info('Starting add product to cart test');
 
-        await loginPage.login(
-            config.username,
-            config.password
-        );
+    // Authentication has already been completed by the fixture.
 
-        //await dashboardPage
-        //    .verifyDashboardDisplayed();
+    await productCardComponent.addProductToCart(productName);
 
-        await productCardComponent
-            .addProductToCart(productName);
+    await authenticatedPage
+        .locator('[routerlink="/dashboard/cart"]')
+        .click();
 
-        await dashboardPage
-            .goToCart();
+    await expect(
+        cartPage.getProduct(productName)
+    ).toBeVisible();
 
-        /*await expect(
-            cartPage.getProduct(productName)
-        ).toBeVisible();*/
-
-        logger.info(
-            `Product verified successfully in cart: ${productName}`
-        );
-    }
-);
+    logger.info(
+        `Product verified successfully in cart: ${productName}`
+    );
+});
