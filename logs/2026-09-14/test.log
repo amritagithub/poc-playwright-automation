@@ -88,3 +88,49 @@
 2026-09-14 13:30:12 [INFO] Locating product card for: ZARA COAT 3
 2026-09-14 13:30:12 [INFO] Product added to cart: ZARA COAT 3
 2026-09-14 13:30:12 [INFO] Add product to cart test completed
+2026-09-14 14:00:17 [INFO] Starting add product to cart test
+2026-09-14 14:00:17 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-14 14:00:21 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-14 14:00:21 [INFO] Starting login
+2026-09-14 14:00:22 [INFO] Login button clicked
+2026-09-14 14:00:24 [INFO] Starting add product to cart test
+2026-09-14 14:00:24 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-14 14:00:26 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-14 14:00:26 [INFO] Starting login
+2026-09-14 14:00:27 [INFO] Login button clicked
+2026-09-14 14:01:32 [INFO] Starting add product to cart test
+2026-09-14 14:01:32 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-14 14:01:36 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-14 14:01:36 [INFO] Starting login
+2026-09-14 14:01:36 [INFO] Login button clicked
+2026-09-14 14:01:36 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-14 14:01:36 [INFO] Locating product card for: ZARA COAT 3
+2026-09-14 14:01:37 [INFO] Product added to cart: ZARA COAT 3
+2026-09-14 14:01:37 [INFO] Navigating to Cart
+2026-09-14 14:01:39 [INFO] Starting add product to cart test
+2026-09-14 14:01:39 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-14 14:01:40 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-14 14:01:40 [INFO] Starting login
+2026-09-14 14:01:40 [INFO] Login button clicked
+2026-09-14 14:01:40 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-14 14:01:40 [INFO] Locating product card for: ZARA COAT 3
+2026-09-14 14:01:41 [INFO] Product added to cart: ZARA COAT 3
+2026-09-14 14:01:41 [INFO] Navigating to Cart
+2026-09-14 15:33:39 [INFO] Starting add product to cart test
+2026-09-14 15:33:39 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-14 15:33:41 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-14 15:33:41 [INFO] Starting login
+2026-09-14 15:33:41 [INFO] Login button clicked
+2026-09-14 15:33:41 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-14 15:33:41 [INFO] Locating product card for: ZARA COAT 3
+2026-09-14 15:33:42 [INFO] Product added to cart: ZARA COAT 3
+2026-09-14 15:33:42 [INFO] Navigating to Cart
+2026-09-14 15:33:59 [INFO] Starting add product to cart test
+2026-09-14 15:33:59 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-14 15:34:01 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-14 15:34:01 [INFO] Starting login
+2026-09-14 15:34:01 [INFO] Login button clicked
+2026-09-14 15:34:01 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-14 15:34:01 [INFO] Locating product card for: ZARA COAT 3
+2026-09-14 15:34:01 [INFO] Product added to cart: ZARA COAT 3
+2026-09-14 15:34:01 [INFO] Navigating to Cart

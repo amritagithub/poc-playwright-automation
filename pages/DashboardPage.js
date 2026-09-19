@@ -12,10 +12,7 @@ export class DashboardPage extends BasePage {
             { name: 'ORDERS' }
         );
 
-        this.cartButton = page.getByRole(
-            'button',
-            { name: /Cart/i }
-        );
+        this.cartButton = page.locator('button[routerlink="/dashboard/cart"]');
     }
 
     async isDashboardDisplayed() {
