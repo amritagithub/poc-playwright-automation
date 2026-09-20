@@ -11,6 +11,7 @@ import { CartPage } from '../pages/CartPage.js';
 import logger from '../utils/Logger.js';
 import { config } from '../config/configurationManager.js';
 import { JsonReader } from '../utils/JsonReader.js';
+import { HeaderComponent } from '../components/HeaderComponent.js';
 
 export const test = base.extend({
 
@@ -32,7 +33,16 @@ export const test = base.extend({
 
         await use(loginPage);
     },
-    
+    headerComponent: async ({ page, logger, config }, use) => {
+
+    const headerComponent = new HeaderComponent(
+        page,
+        logger,
+        config
+    );
+
+    await use(headerComponent);
+},
 
     dashboardPage: async ({ page, logger, config }, use) => {
 
@@ -102,7 +112,25 @@ export const test = base.extend({
         );
 
         await use(jsonReader);
-    }
+    },
+    productData: async ({ jsonReader }, use) => {
+
+    const data = jsonReader.read(
+        'common/productData.json'
+    );
+
+    const productName = jsonReader.getRequiredValue(
+        data,
+        ['addToCart', 'productName']
+    );
+
+    await use({
+        addToCart: {
+            productName
+        }
+    });
+},
+    
 
 });
 
