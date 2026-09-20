@@ -8,6 +8,38 @@ export class BasePage {
      console.log("CONFIG OBJECT:", config);
 
 }
+async waitForLoader(
+    loaderSelector,
+    timeout = this.config.defaultTimeout
+) {
+    this.logger?.debug(
+        `Waiting for loader to disappear: ${loaderSelector}`
+    );
+
+    try {
+        await this.page
+            .locator(loaderSelector)
+            .first()
+            .waitFor({
+                state: 'hidden',
+                timeout
+            });
+
+        this.logger?.info(
+            `Loader is no longer visible: ${loaderSelector}`
+        );
+
+    } catch (error) {
+        this.logger?.error(
+            `Loader did not disappear: ${loaderSelector}. ${error.message}`
+        );
+
+        throw new Error(
+            `Timed out waiting for loader "${loaderSelector}" to disappear`,
+            { cause: error }
+        );
+    }
+}
 async navigate(url = this.config.baseUrl) {
 
     this.logger.info(`Navigating to: ${url}`);
