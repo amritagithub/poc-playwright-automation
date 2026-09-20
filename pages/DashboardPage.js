@@ -53,21 +53,7 @@ export class DashboardPage extends BasePage {
         return count;
     }
 
-    async goToOrders() {
+ 
 
-        this.logger?.info(
-            'Navigating to Orders'
-        );
-
-        await this.click(this.ordersButton);
-    }
-
-    async goToCart() {
-
-        this.logger?.info(
-            'Navigating to Cart'
-        );
-
-        await this.click(this.cartButton);
-    }
+  
 }

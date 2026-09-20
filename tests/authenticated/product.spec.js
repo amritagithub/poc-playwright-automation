@@ -5,7 +5,8 @@ test('Add product to cart', async ({
     productCardComponent,
     cartPage,
     jsonReader,
-    logger
+    logger,
+    headerComponent
 }) => {
 
     const productData = jsonReader.read(
@@ -25,7 +26,7 @@ test('Add product to cart', async ({
 
     await productCardComponent.addProductToCart(productName);
 
-    await dashboardPage.goToCart();
+  await headerComponent.goToCart();
 
     await expect(
         cartPage.getProduct(productName)
