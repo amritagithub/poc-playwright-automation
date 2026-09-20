@@ -231,3 +231,155 @@ Call log:
 2026-09-19 13:53:06 [INFO] Locating product card for: ZARA COAT 3
 2026-09-19 13:53:06 [INFO] Product added to cart: ZARA COAT 3
 2026-09-19 13:53:08 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:09:05 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:09:09 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:09:09 [INFO] Starting login
+2026-09-19 14:09:09 [INFO] Login button clicked
+2026-09-19 14:09:09 [INFO] Verifying dashboard is displayed
+2026-09-19 14:09:09 [INFO] Dashboard displayed successfully
+2026-09-19 14:09:09 [INFO] Authenticated browser state saved
+2026-09-19 14:11:10 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:11:13 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:11:13 [INFO] Starting login
+2026-09-19 14:11:13 [INFO] Login button clicked
+2026-09-19 14:11:13 [INFO] Verifying dashboard is displayed
+2026-09-19 14:11:13 [INFO] Dashboard displayed successfully
+2026-09-19 14:11:13 [INFO] Authenticated browser state saved
+2026-09-19 14:18:08 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:18:10 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:18:10 [INFO] Starting login
+2026-09-19 14:18:10 [INFO] Login button clicked
+2026-09-19 14:18:10 [INFO] Verifying dashboard is displayed
+2026-09-19 14:18:11 [INFO] Dashboard displayed successfully
+2026-09-19 14:18:11 [INFO] Authenticated browser state saved
+2026-09-19 14:18:13 [INFO] Starting add product to cart test
+2026-09-19 14:18:13 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:18:14 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:18:14 [INFO] Verifying dashboard is displayed
+2026-09-19 14:18:14 [INFO] Dashboard displayed successfully
+2026-09-19 14:18:14 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:18:14 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:18:14 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:18:14 [INFO] Navigating to Cart
+2026-09-19 14:18:16 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:18:16 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:18:20 [INFO] Starting add product to cart test
+2026-09-19 14:18:20 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:18:23 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:18:23 [INFO] Verifying dashboard is displayed
+2026-09-19 14:18:23 [INFO] Dashboard displayed successfully
+2026-09-19 14:18:23 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:18:23 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:18:23 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:18:23 [INFO] Navigating to Cart
+2026-09-19 14:18:25 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:18:25 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:18:26 [INFO] Starting add product to cart test
+2026-09-19 14:18:26 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:18:27 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:18:27 [INFO] Verifying dashboard is displayed
+2026-09-19 14:18:27 [INFO] Dashboard displayed successfully
+2026-09-19 14:18:27 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:18:27 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:18:28 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:18:28 [INFO] Navigating to Cart
+2026-09-19 14:18:30 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:18:30 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:25:03 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:25:06 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:25:06 [INFO] Starting login
+2026-09-19 14:25:06 [INFO] Login button clicked
+2026-09-19 14:25:06 [INFO] Verifying dashboard is displayed
+2026-09-19 14:25:06 [INFO] Dashboard displayed successfully
+2026-09-19 14:25:06 [INFO] Authenticated browser state saved
+2026-09-19 14:25:09 [INFO] Starting add product to cart test
+2026-09-19 14:25:09 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:25:10 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:25:10 [INFO] Verifying dashboard is displayed
+2026-09-19 14:25:10 [INFO] Dashboard displayed successfully
+2026-09-19 14:25:10 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:25:10 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:25:11 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:25:11 [INFO] Navigating to Cart
+2026-09-19 14:25:13 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:25:13 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:25:16 [INFO] Starting add product to cart test
+2026-09-19 14:25:16 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:25:18 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:25:18 [INFO] Verifying dashboard is displayed
+2026-09-19 14:25:18 [INFO] Starting add product to cart test
+2026-09-19 14:25:18 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:25:18 [INFO] Dashboard displayed successfully
+2026-09-19 14:25:18 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:25:18 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:25:18 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:25:18 [INFO] Navigating to Cart
+2026-09-19 14:25:20 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:25:20 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:25:20 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:25:20 [INFO] Verifying dashboard is displayed
+2026-09-19 14:25:20 [INFO] Dashboard displayed successfully
+2026-09-19 14:25:20 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:25:20 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:25:41 [INFO] Starting add product to cart test
+2026-09-19 14:25:41 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:25:44 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:25:44 [INFO] Verifying dashboard is displayed
+2026-09-19 14:25:44 [INFO] Dashboard displayed successfully
+2026-09-19 14:25:44 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:25:44 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:28:58 [INFO] Starting login test
+2026-09-19 14:28:58 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:29:01 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:29:01 [INFO] Starting login
+2026-09-19 14:29:01 [INFO] Login button clicked
+2026-09-19 14:29:01 [INFO] Login test completed
+2026-09-19 14:29:03 [INFO] Starting login test
+2026-09-19 14:29:03 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:29:05 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:29:05 [INFO] Starting login
+2026-09-19 14:29:05 [INFO] Login button clicked
+2026-09-19 14:29:05 [INFO] Login test completed
+2026-09-19 14:30:11 [INFO] Starting login test
+2026-09-19 14:30:11 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:30:29 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:30:29 [INFO] Starting login
+2026-09-19 14:30:29 [INFO] Login button clicked
+2026-09-19 14:30:29 [INFO] Login test completed
+2026-09-19 14:30:30 [INFO] products are ADIDAS ORIGINAL$ 11500 View Add To Cart,ZARA COAT 3$ 11500 View Add To Cart,iphone 13 pro$ 55000 View Add To Cart,car$ 150000 View Add To Cart,iPhone QA Max$ 98765 View Add To Cart,{{productName}}$ 115000 View Add To Cart,Laptop$ 11500 View Add To Cart,Laptop$ 11500 View Add To Cart
+2026-09-19 14:31:19 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:31:21 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:31:21 [INFO] Starting login
+2026-09-19 14:31:21 [INFO] Login button clicked
+2026-09-19 14:31:21 [INFO] Verifying dashboard is displayed
+2026-09-19 14:31:21 [INFO] Dashboard displayed successfully
+2026-09-19 14:31:21 [INFO] Authenticated browser state saved
+2026-09-19 14:31:24 [INFO] Starting add product to cart test
+2026-09-19 14:31:24 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:31:24 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:31:24 [INFO] Verifying dashboard is displayed
+2026-09-19 14:31:24 [INFO] Dashboard displayed successfully
+2026-09-19 14:31:24 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:31:24 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:31:25 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:31:25 [INFO] Navigating to Cart
+2026-09-19 14:31:26 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:31:26 [INFO] Product verified successfully in cart: ZARA COAT 3
+2026-09-19 14:34:07 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:34:08 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:34:08 [INFO] Starting login
+2026-09-19 14:34:08 [INFO] Login button clicked
+2026-09-19 14:34:08 [INFO] Verifying dashboard is displayed
+2026-09-19 14:34:08 [INFO] Dashboard displayed successfully
+2026-09-19 14:34:08 [INFO] Authenticated browser state saved
+2026-09-19 14:34:11 [INFO] Starting add product to cart test
+2026-09-19 14:34:11 [INFO] Navigating to: https://rahulshettyacademy.com/client
+2026-09-19 14:34:11 [INFO] Navigation completed: https://rahulshettyacademy.com/client
+2026-09-19 14:34:11 [INFO] Verifying dashboard is displayed
+2026-09-19 14:34:11 [INFO] Dashboard displayed successfully
+2026-09-19 14:34:11 [INFO] Adding product to cart: ZARA COAT 3
+2026-09-19 14:34:11 [INFO] Locating product card for: ZARA COAT 3
+2026-09-19 14:34:12 [INFO] Product added to cart: ZARA COAT 3
+2026-09-19 14:34:12 [INFO] Navigating to Cart
+2026-09-19 14:34:13 [INFO] Successfully clicked: [routerlink="/dashboard/cart"]
+2026-09-19 14:34:13 [INFO] Product verified successfully in cart: ZARA COAT 3

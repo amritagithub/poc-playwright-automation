@@ -1,7 +1,7 @@
-import { test, expect } from '../fixtures/testFixtures.js';
+import { test, expect } from '../../fixtures/authenticatedFixtures.js';
 
 test('Add product to cart', async ({
-    authenticatedPage,
+    dashboardPage,
     productCardComponent,
     cartPage,
     jsonReader,
@@ -19,13 +19,13 @@ test('Add product to cart', async ({
 
     logger.info('Starting add product to cart test');
 
-    // Authentication has already been completed by the fixture.
+    await dashboardPage.navigate();
+
+    await dashboardPage.verifyDashboardDisplayed();
 
     await productCardComponent.addProductToCart(productName);
 
-    await authenticatedPage
-        .locator('[routerlink="/dashboard/cart"]')
-        .click();
+    await dashboardPage.goToCart();
 
     await expect(
         cartPage.getProduct(productName)
