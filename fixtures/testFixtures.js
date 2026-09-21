@@ -12,7 +12,7 @@ import logger from '../utils/Logger.js';
 import { config } from '../config/configurationManager.js';
 import { JsonReader } from '../utils/JsonReader.js';
 import { HeaderComponent } from '../components/HeaderComponent.js';
-
+import { ApiClient } from '../api/ApiClient.js';
 export const test = base.extend({
 
     logger: async ({}, use) => {
@@ -33,6 +33,12 @@ export const test = base.extend({
 
         await use(loginPage);
     },
+    // API Client fixture to be used in tests
+    apiClient: async ({ request, logger }, use) => {
+    const apiClient = new ApiClient(request, logger);
+
+    await use(apiClient);
+},
     headerComponent: async ({ page, logger, config }, use) => {
 
     const headerComponent = new HeaderComponent(

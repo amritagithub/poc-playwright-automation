@@ -29,6 +29,7 @@ export const environment = {
     password: process.env.APP_PASSWORD,
     browser: process.env.BROWSER || 'chromium',
     headless: process.env.HEADLESS !== 'false',
+    apiBaseUrl: process.env.API_BASE_URL,
     defaultTimeout: Number(process.env.DEFAULT_TIMEOUT || 30000),
     actionTimeout: Number(process.env.ACTION_TIMEOUT || 15000),
     navigationTimeout: Number(process.env.NAVIGATION_TIMEOUT || 30000),

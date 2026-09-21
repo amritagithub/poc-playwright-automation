@@ -81,3 +81,5 @@
 2026-09-20 17:08:11 [INFO] Login button clicked
 2026-09-20 17:08:11 [INFO] Login test completed
 2026-09-20 17:08:11 [INFO] products are ADIDAS ORIGINAL$ 11500 View Add To Cart,ZARA COAT 3$ 11500 View Add To Cart,iphone 13 pro$ 55000 View Add To Cart,car$ 150000 View Add To Cart,iPhone QA Max$ 98765 View Add To Cart,{{productName}}$ 115000 View Add To Cart,Laptop$ 11500 View Add To Cart,Laptop$ 11500 View Add To Cart
+2026-09-20 19:50:40 [INFO] POST https://rahulshettyacademy.com/api/ecom/product/get-all-products
+2026-09-20 19:50:41 [INFO] POST https://rahulshettyacademy.com/api/ecom/product/get-all-products
