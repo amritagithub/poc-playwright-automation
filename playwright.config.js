@@ -71,6 +71,13 @@ export default defineConfig({
             ...devices['Desktop Safari']
         },
         dependencies: ['setup']
+    },
+    {
+    name: 'api',
+    testMatch: '**/tests/api/**/*.api.spec.js',
+    use: {
+        storageState: { cookies: [], origins: [] }
     }
+}
 ],
 });

@@ -10,7 +10,8 @@ class ConfigurationManager {
         const required = [
             'baseUrl',
             'username',
-            'password'
+            'password',
+            'apiBaseUrl',
         ];
 
         const missing = required.filter(
@@ -31,6 +32,9 @@ class ConfigurationManager {
     get baseUrl() {
         return environment.baseUrl;
     }
+    get apiBaseUrl() {
+    return environment.apiBaseUrl;
+}
 
     get username() {
         return environment.username;
